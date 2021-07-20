@@ -1,0 +1,121 @@
+import {StyleSheet} from 'react-native';
+
+const styles = StyleSheet.create({
+  wrap: {
+    flex: 1,
+    backgroundColor: '#E5E5E5',
+    elevation: 10,
+  },
+  todoWrap: {
+    backgroundColor: '#FCFAFF',
+    margin: 10,
+    borderRadius: 10,
+    borderColor: '#ccc',
+    position: 'absolute',
+    top: 150,
+    elevation: 10,
+  },
+  counter: {
+    textAlign: 'center',
+    fontSize: 18,
+    paddingHorizontal: 10,
+    color: '#000',
+    fontWeight: 'bold',
+  },
+  counterIcon: {},
+  buttonTodoWrap: {
+    flexDirection: 'row',
+    justifyContent: 'center',
+    elevation: 10,
+    paddingVertical: 20,
+  },
+  buttonCta: {
+    margin: 10,
+    paddingHorizontal: 40,
+    paddingVertical: 10,
+    backgroundColor: '#b4005a',
+    borderRadius: 5,
+    color: '#fff',
+    fontWeight: 'bold',
+  },
+  colorCta: {
+    backgroundColor: 'coral',
+  },
+  header: {
+    fontSize: 32,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    margin: 25,
+  },
+  inputWrap: {
+    flexDirection: 'row',
+    paddingVertical: 20,
+    paddingHorizontal: 15,
+  },
+  input: {
+    borderWidth: 2,
+    borderColor: '#ccc',
+    borderTopLeftRadius: 15,
+    borderBottomLeftRadius: 15,
+    width: '75%',
+    padding: 5,
+    color: '#000',
+  },
+  buttonWrap: {
+    width: '25%',
+    borderWidth: 1,
+    backgroundColor: 'red',
+    borderColor: 'red',
+    borderTopRightRadius: 15,
+    borderBottomRightRadius: 15,
+    padding: 10,
+  },
+  button: {
+    fontSize: 16,
+    fontWeight: 'bold',
+    textAlign: 'center',
+    color: '#fff',
+  },
+  modal: {
+    backgroundColor: '#E5E5E5',
+    flex: 1,
+    flexDirection: 'column',
+    justifyContent: 'center',
+  },
+  heading: {
+    textAlign: 'center',
+    fontWeight: 'bold',
+    fontSize: 32,
+    color: '#000',
+  },
+  date: {
+    textAlign: 'right',
+    fontSize: 10,
+    fontWeight: 'bold',
+    marginHorizontal: 20,
+    marginTop: 5,
+  },
+  icon: {
+    textAlign: 'right',
+    margin: 20,
+  },
+  itemList: {},
+  items: {
+    borderRadius: 100,
+    marginVertical: 5,
+    fontSize: 22,
+    marginHorizontal: 20,
+    paddingVertical: 5,
+    textAlign: 'center',
+    elevation: 10,
+    backgroundColor: '#ffcc',
+  },
+  cross: {
+    fontWeight: 'bold',
+    fontSize: 24,
+    textAlign: 'right',
+    padding: 20,
+  },
+});
+
+export default styles;
